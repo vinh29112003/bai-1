@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-image: url('https://images.gametime.co/concert/music/gametime-images/musicasapmob/hero@4x/asap-mob.jpg?auto=webp&format=pjpg&quality=50%2C35&disable=upscale&dpr=2&fit=crop&width=440&height=240');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#main .text-1 {
+    position: absolute;
+    color: red;
+    font-size: 100px;
+    font-family: Fullerton Next;
+    transform: rotate(-20deg);
+    top: 10%;
+    right: 20%;
+}
+
+#main .text-2 {
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+#main .text-2 h2 {
+    color: red;
+    line-height: 100px;
+    text-align: center;
+}
+
+.list span {
+    color: yellow;
+}
+
+.list .members {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+}
+.avt {
+    width: 30%;
+    margin-right: 30px;
+}
+.avt img{
+    border-radius: 50%;
+    width: 100%;
+}
